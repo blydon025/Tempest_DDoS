@@ -13,7 +13,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/blydon025/Tempest_DDoS.git
-cd tempest
+cd Tempest_DDoS
 ```
 
 ## Usage
