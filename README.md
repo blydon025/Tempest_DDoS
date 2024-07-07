@@ -7,6 +7,15 @@ Tempest is a Python script designed for launching DDoS (Distributed Denial of Se
 - **Flexible Targeting:** Supports both IP addresses and domain names.
 - **Threaded Attack:** Utilizes threading to simulate multiple connections for the attack.
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/blydon025/Tempest_DDoS.git
+cd tempest
+```
+
 ## Usage
 
 To run Tempest, use the following command format:
