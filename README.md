@@ -31,7 +31,7 @@ This script allows you to perform a DDoS attack on a specified target IP address
 3. Run the script:
 
     ```bash
-    python tempest.py
+    python3 tempest.py
     ```
 
 ## Usage
