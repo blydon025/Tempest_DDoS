@@ -1,49 +1,67 @@
-# Tempest_DDoS
-Tempest is a Python script designed for launching DDoS (Distributed Denial of Service) attacks. It allows you to specify a target IP address or domain name, and optionally a port, directly from the command line.
+# Tempest DDoS Attack Script
+
+This script allows you to perform a DDoS attack on a specified target IP address or domain name. It includes ASCII art for visual appeal when the script starts.
 
 ## Features
 
-- **Simple Command-Line Interface:** Easy to use with command-line arguments for target and port.
-- **Flexible Targeting:** Supports both IP addresses and domain names.
-- **Threaded Attack:** Utilizes threading to simulate multiple connections for the attack.
+- Simple and easy-to-use DDoS attack script
+- ASCII art displayed on startup
+- Prompts user for target IP address/domain and port
+- Default port set to 80 if not specified
+- Multi-threaded attack for increased impact
+
+## Prerequisites
+
+- Python 3.x
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
-```bash
-git clone https://github.com/blydon025/Tempest_DDoS.git
-cd Tempest_DDoS
-```
+    ```bash
+    git clone https://github.com/blydon025/Tempest_DDoS.git
+    ```
+
+2. Navigate to the cloned directory:
+
+    ```bash
+    cd Tempest_DDoS
+    ```
+
+3. Run the script:
+
+    ```bash
+    python tempest.py
+    ```
 
 ## Usage
 
-To run Tempest, use the following command format:
+1. Run the script:
 
-```bash
-python tempest.py TARGET [-p PORT]
-```
-- `TARGET` can be a website URL or an IP address.
-- `-p PORT` (optional) specifies the port to target (default is 80).
+    ```bash
+    python tempest.py
+    ```
 
-## Examples
-Launch a DDoS attack on example.com:
-```bash
-python tempest.py example.com
-```
+2. Enter the target IP address or domain name when prompted:
 
-Launch a DDoS attack on 192.168.1.100 on port 8080:
-```bash
-python tempest.py 192.168.1.100 -p 8080
-```
-## Notes
-Use this script responsibly and only in environments you have permission to test.
-Adjust the number of threads (range(500)) in the script based on your testing requirements and target system capabilities.
-Disclaimer
-This script is provided for educational purposes only. Misuse of this script for attacking targets without authorization is illegal and unethical. Use it responsibly and only on systems you have permission to test.
+    ```
+    Target (IP or domain): -> example.com
+    ```
+
+3. Enter the target port when prompted (default is 80 if left blank):
+
+    ```
+    Port (default is 80): -> 80
+    ```
+
+4. The script will start the DDoS attack with 500 threads.
+
+## Disclaimer
+
+This script is for educational purposes only. Do not use it to attack any systems or networks without proper authorization. Unauthorized use of this script may violate local, state, or federal laws.
+
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Author
-Brads - @blydon025
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
